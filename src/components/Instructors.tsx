@@ -26,16 +26,15 @@ const instructors = [
     },
     {
       id: 4,
-      name: 'Andre Gomez',
-      designation: 'Drumming Expert',
-      image:
-        'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60',
+      name: 'Rajesh Kumar',
+      designation: 'Camera Operator',
+      image:'/cameraMan.png'
     },
     {
         id: 5,
-        name: 'Vinay',
+        name: 'Vinay Keshwala',
         designation: 'Web Developer',
-        image:'/Profile picture.jpg'
+        image:'/vinay.png'
       }
   ];
 

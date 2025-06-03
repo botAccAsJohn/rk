@@ -2,6 +2,9 @@
 
 import React, { FormEvent, useState } from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
+import { AuroraText } from "@/components/magicui/aurora-text";
+
+
 
 function MusicSchoolContactUs() {
   const [email, setEmail] = useState("");
@@ -23,19 +26,21 @@ function MusicSchoolContactUs() {
           {" "}
           {/* Add relative and z-10 to bring content to the front */}
           <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-            Contact Us
+            <AuroraText>Contect Us</AuroraText>
           </h1>
-          <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-            We&apos;re here to help with any questions about our courses,
+
+
+          <p className="text-neutral-200 max-w-lg mx-auto my-2 text-sm text-center">
+            We&apos;re here to help with any questions,
             programs, or events. Reach out and let us know how we can assist you
-            in your musical journey.
+            in your journey.
           </p>
           <form onSubmit={handleSubmit} className="space-y-4 text-white mt-4">
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Your email address"
+              placeholder="Your email address/Phone number"
               className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500 w-full p-4 bg-neutral-950 placeholder:text-neutral-700"
               required
             />

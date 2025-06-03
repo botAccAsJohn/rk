@@ -23,11 +23,11 @@ function FeaturedCourses() {
     <div className="py-12 bg-transparent">
       <div>
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
-            FEATURED COURSES
-          </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
-            Learn With the Best
+          {/* <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
+            OUR FEATURED 
+          </h2> */}
+          <p className="mt-2 text-3xl leading-8 text-teal-600 font-extrabold tracking-tight text-white sm:text-4xl from-neutral-50 to-neutral-400 text-transparent bg-clip-text bg-gradient-to-b">
+            OUR FEATURED
           </p>
         </div>
       </div>
@@ -43,25 +43,14 @@ function FeaturedCourses() {
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                     {course.description}
                   </p>
-                  <Link href={`/courses/${course.slug}`} className="text-white">
-                    Learn More
-                  </Link>
+                  
                 </div>
               </BackgroundGradient>
             </div>
           ))}
         </div>
       </div>
-      <div className="mt-20 text-center">
-        <Link href={"/courses"}>
-          <Button
-            borderRadius="1.75rem"
-            className="bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-          >
-            View All Courses
-          </Button>
-        </Link>
-      </div>
+      
     </div>
   );
 }

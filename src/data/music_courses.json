@@ -1,105 +1,104 @@
 {
-    "courses": [
-      {
-        "key": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "https://plus.unsplash.com/premium_photo-1693169973609-342539dea9dc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8R3VpdGFyfGVufDB8fDB8fHww" 
-      },
-      {
-        "key": 2,
-        "title": "Piano for Beginners",
-        "slug": "piano-for-beginners",
-        "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
-        "price": 109.99,
-        "instructor": "Jane Smith",
-        "isFeatured": false,
-        "image": "https://plus.unsplash.com/premium_photo-1673296664038-668b6506b8f0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFBpYW5vfGVufDB8fDB8fHww" 
-      },
-      {
-        "key": 3,
-        "title": "Advanced Vocal Techniques",
-        "slug": "advanced-vocal-techniques",
-        "description": "Enhance your singing with advanced vocal techniques for intermediate to advanced learners.",
-        "price": 119.99,
-        "instructor": "Emily Johnson",
-        "isFeatured": true,
-        "image": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG11c2ljfGVufDB8fDB8fHww" 
-      },
-      {
-        "key": 4,
-        "title": "Drumming Mastery",
-        "slug": "drumming-mastery",
-        "description": "Master the drums with our comprehensive course covering all skill levels.",
-        "price": 129.99,
-        "instructor": "Mike Brown",
-        "isFeatured": false,
-        "image": "https://plus.unsplash.com/premium_photo-1703199841036-c1e566da98cc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RHJ1bW1pbmd8ZW58MHx8MHx8fDA%3D"
-      },
-      {
-        "key": 5,
-        "title": "Jazz Improvisation",
-        "slug": "jazz-improvisation",
-        "description": "Learn the art of jazz improvisation with this course designed for all levels.",
-        "price": 139.99,
-        "instructor": "Chris Davis",
-        "isFeatured": false,
-        "image": "https://plus.unsplash.com/premium_photo-1682175064830-3fd888b1d238?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SmF6eiUyMEltcHJvdmlzYXRpb258ZW58MHx8MHx8fDA%3D"
-      },
-      {
-        "key": 6,
-        "title": "Music Production Fundamentals",
-        "slug": "music-production-fundamentals",
-        "description": "Dive into music production with this introductory course on the basics of sound engineering and mixing.",
-        "price": 149.99,
-        "instructor": "Alex Wilson",
-        "isFeatured": true,
-        "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE11c2ljJTIwUHJvZHVjdGlvbiUyMEZ1bmRhbWVudGFsfGVufDB8fDB8fHww"
-      },
-      {
-        "key": 7,
-        "title": "Songwriting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of songwriting to express your musical creativity.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
-        "isFeatured": false,
-        "image": "https://plus.unsplash.com/premium_photo-1681494428398-39083d178358?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U29uZ3dyaXRpbmclMjBFc3NlbnRpYWxzfGVufDB8fDB8fHww"
-      },
-      {
-        "key": 8,
-        "title": "Electronic Music Production",
-        "slug": "electronic-music-production",
-        "description": "Create compelling electronic music with our course designed for beginners to advanced users.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "https://plus.unsplash.com/premium_photo-1661678097146-997ef05ba6a6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RWxlY3Ryb25pYyUyME11c2ljJTIwUHJvZHVjdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
-      },
-      {
-        "key": 9,
-        "title": "Classical Music History",
-        "slug": "classical-music-history",
-        "description": "Explore the rich history of classical music from its origins to the present day.",
-        "price": 179.99,
-        "instructor": "Grace Lee",
-        "isFeatured": false,
-        "image": "https://plus.unsplash.com/premium_photo-1661433046193-60bd39e76614?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2xhc3NpY2FsJTIwTXVzaWMlMjBIaXN0b3J5fGVufDB8fDB8fHww"
-      },
-      {
-        "key": 10,
-        "title": "Blues Guitar Techniques",
-        "slug": "blues-guitar-techniques",
-        "description": "Discover the techniques of blues guitar to add soul and depth to your playing.",
-        "price": 189.99,
-        "instructor": "Ethan Moore",
-        "isFeatured": true,
-        "image": "https://images.unsplash.com/photo-1520166012956-add9ba0835cb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Qmx1ZXMlMjBHdWl0YXJ8ZW58MHx8MHx8fDA%3D"
-      }
-    ]
-  }
-  
+  "courses": [
+    {
+      "key": 1,
+      "title": "Professional Photography",
+      "slug": "professional-photography",
+      "description": "Capture stunning moments with our expert photographers, perfect for weddings, events, and portraits.",
+      "price": 299.99,
+      "instructor": "Rahul Desai",
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 2,
+      "title": "Wedding Videography",
+      "slug": "wedding-videography",
+      "description": "Relive your special day with cinematic wedding video shoots, tailored to your story and style.",
+      "price": 499.99,
+      "instructor": "Anjali Patel",
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 3,
+      "title": "4K Ultra HD Video Shooting",
+      "slug": "4k-ultra-hd-video-shooting",
+      "description": "Experience ultra-clear visuals with our 4K quality shooting for events, commercials, and personal projects.",
+      "price": 399.99,
+      "instructor": "Rakesh Sharma",
+      "isFeatured": false,
+      "image": "https://images.unsplash.com/photo-1611162617213-6be1f7b7a91b?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 4,
+      "title": "Advanced Video Editing",
+      "slug": "advanced-video-editing",
+      "description": "Transform raw footage into captivating stories with our professional editing using the latest software.",
+      "price": 199.99,
+      "instructor": "Sneha Mehta",
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1608417471649-4a3b8b1ad96d?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 5,
+      "title": "Drone Cinematography",
+      "slug": "drone-cinematography",
+      "description": "Get breathtaking aerial shots for your events or projects using top-grade drones and licensed pilots.",
+      "price": 349.99,
+      "instructor": "Amit Chauhan",
+      "isFeatured": false,
+      "image": "https://images.unsplash.com/photo-1514474959185-147c3dd40d78?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 6,
+      "title": "Pre-Wedding Shoots",
+      "slug": "pre-wedding-shoots",
+      "description": "Capture your love story before the big day with beautifully crafted pre-wedding shoots.",
+      "price": 259.99,
+      "instructor": "Divya Joshi",
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 7,
+      "title": "Event Coverage",
+      "slug": "event-coverage",
+      "description": "From birthdays to corporate events, we offer full coverage with photography and videography services.",
+      "price": 279.99,
+      "instructor": "Nikhil Thakkar",
+      "isFeatured": false,
+      "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 8,
+      "title": "Studio Shoots with Latest Equipment",
+      "slug": "studio-shoots-latest-equipment",
+      "description": "Shoot in our fully-equipped studio using state-of-the-art cameras, lights, and backdrops.",
+      "price": 189.99,
+      "instructor": "Kavita Shah",
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1607082349562-e7231a6b51b7?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 9,
+      "title": "Corporate Video Production",
+      "slug": "corporate-video-production",
+      "description": "Boost your brand with high-quality corporate videos tailored for marketing, training, or presentations.",
+      "price": 599.99,
+      "instructor": "Raj Mehta",
+      "isFeatured": false,
+      "image": "https://images.unsplash.com/photo-1590065706844-b2f113d4f384?w=400&auto=format&fit=crop&q=60"
+    },
+    {
+      "key": 10,
+      "title": "Short Film & Documentary Production",
+      "slug": "short-film-documentary-production",
+      "description": "Bring your vision to life with our full-service short film and documentary production support.",
+      "price": 799.99,
+      "instructor": "Isha Pandya",
+      "isFeatured": true,
+      "image": "https://images.unsplash.com/photo-1584824486539-53bb4646bdbc?w=400&auto=format&fit=crop&q=60"
+    }
+  ]
+}

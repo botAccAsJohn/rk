@@ -29,14 +29,7 @@ function Footer() {
                   About
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-white transition-colors duration-300"
-                >
-                  Courses
-                </a>
-              </li>
+              
               <li>
                 <a
                   href="#"
@@ -72,9 +65,9 @@ function Footer() {
           </div>
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-            <p>New Delhi, India</p>
-            <p>Delhi 10001</p>
-            <p>Email: info@musicschool.com</p>
+            <p>Opp. Maher samaj, Keshod</p>
+            <p>Keshod , 362220</p>
+            <p>Email: info@rkstudio.com</p>
             <p>Phone: (123) 456-7890</p>
           </div>
           </div>
