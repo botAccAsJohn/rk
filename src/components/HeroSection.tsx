@@ -23,7 +23,7 @@ function HeroSection() {
         </h1>
         <br />
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Whether you're looking for professional photography, stunning videography, or expert video editing, our studio turns your vision into art. From events to personal projects, let us help you tell your story — frame by frame, cut by cut.
+          Whether you&apos;re looking for professional photography, stunning videography, or expert video editing, our studio turns your vision into art. From events to personal projects, let us help you tell your story — frame by frame, cut by cut.
         </p>
         <br />
         <div className="mt-4">
