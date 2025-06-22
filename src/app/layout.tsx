@@ -3,9 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { SmoothCursor } from "@/components/ui/smooth-cursor";
-
-
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +22,6 @@ export default function RootLayout({
         <div className="relative w-full flex items-center justify-center ">
           <Navbar />
         </div>
-        <SmoothCursor />
         {children}
         <Footer />
       </body>

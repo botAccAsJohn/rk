@@ -7,8 +7,8 @@ import { ContainerTextFlip } from "@/components/ui/container-text-flip";
 function HeroSection() {
   return (
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
-      <div className="relative overflow-hidden h-[400px] w-full">
-        <Particles />
+      <div className="relative overflow-hidden md:h-[400px] w-full h-[100px] md:h-[400px] md:h-auto">
+        <Particles className="h-[100px] md:h-auto" />
       </div>
 
       <Spotlight

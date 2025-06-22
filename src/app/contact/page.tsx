@@ -3,6 +3,7 @@
 import React, { FormEvent, useState } from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { AuroraText } from "@/components/magicui/aurora-text";
+import axios from "axios";
 
 
 
@@ -10,8 +11,41 @@ function MusicSchoolContactUs() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const isValidEmail = (value: string) =>
+    /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+
+  const isValidPhone = (value: string) =>
+   /^\+?[0-9]{10}$/.test(value);
+
+  const isValidInput = (value: string) =>
+    isValidEmail(value) || isValidPhone(value);
+
+
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    (async () => {
+      try {
+        if (!isValidInput(email.trim())) {
+          alert("Please enter a valid email address or phone number.");
+          return;
+        }
+        const response = await axios.post("/api/emails", {
+          sender: email,
+          message: message,
+        });
+        if (response.status === 200) {
+          alert("Message sent successfully!");
+          setEmail("");
+          setMessage("");
+        } else {
+          alert("Failed to send message. Please try again later.");
+        }
+      } catch (error) {
+        console.error("Error sending message:", error);
+        alert("An error occurred while sending your message. Please try again later.");
+
+      }
+    })();
     console.log("Submitted:", { email, message });
   };
 
@@ -26,7 +60,7 @@ function MusicSchoolContactUs() {
           {" "}
           {/* Add relative and z-10 to bring content to the front */}
           <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
-            <AuroraText>Contect Us</AuroraText>
+            <AuroraText>Contact Us</AuroraText>
           </h1>
 
 
@@ -37,7 +71,7 @@ function MusicSchoolContactUs() {
           </p>
           <form onSubmit={handleSubmit} className="space-y-4 text-white mt-4">
             <input
-              type="email"
+              type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Your email address/Phone number"
