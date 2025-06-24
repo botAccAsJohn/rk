@@ -1,6 +1,5 @@
 import { Globe } from "@/components/magicui/globe";
 import { NumberTicker } from "@/components/magicui/number-ticker";
-import { Particles } from "./magicui/particles";
 
 
 function GlobeDemo() {
