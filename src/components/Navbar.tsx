@@ -31,8 +31,8 @@ function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={setActive} active={active} item="Contact Us">
           </MenuItem>
         </Link>
-        <Link href={"https://maps.app.goo.gl/BSkomBa1chgQ86EPA"} target="_blank">
-          <MenuItem setActive={setActive} active={active} item="Fins Us on Map">
+        <Link href={"https://maps.app.goo.gl/VdUZwEptcnSFa7NN8"} target="_blank">
+          <MenuItem setActive={setActive} active={active} item="Find Us on Map">
           </MenuItem>
         </Link>
       </Menu>

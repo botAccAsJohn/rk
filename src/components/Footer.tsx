@@ -83,7 +83,7 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
           <a
-            href="https://maps.app.goo.gl/BSkomBa1chgQ86EPA"
+            href="https://maps.app.goo.gl/VdUZwEptcnSFa7NN8"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors duration-300 mb-1"
